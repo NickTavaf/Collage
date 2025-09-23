@@ -375,11 +375,11 @@ background: transparent;
     z-index: 1;
     border: black solid 10px;
      opacity: 20%;
-    height: 80vh;
-    width: 80vh;
+    height: 79vh;
+    width: 79vh;
     position: absolute;
-    margin-top: -147.9vh;
-    margin-left: -1.3vh;
+    margin-top: -148.1vh;
+    margin-left: -1.6vh;
   }
   
   .item9 img {
@@ -408,34 +408,24 @@ background: transparent;
           
 
 
-  nav {
-    background-color: #bbb9b9;
-    overflow: hidden;
-    position: fixed;
-    top: 0; left: 0; right: 0;  /* stretch edge-to-edge */
-    top: 0; 
-    width: 100%; 
-    z-index: 1000;
-    height: 5vh;
-    font-size: 100px;
-}
-    nav ul {
+  nav { 
+    background-color: #333; overflow: hidden; 
+    position: fixed; 
+    top: 0;
+     left: 0; 
+     right: 0; /* stretch edge-to-edge */ 
+     top: 0;
+     width: 100%;
+      z-index: 1000; }
+
+   nav ul { 
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    margin-left: 63vh;
-}
+     margin: 0; padding: 0; 
+     display: flex; 
+     margin-left: 85vh; } 
 
-nav ul li {
-    padding:30px 250px;
-}
+   nav ul li { padding: 14px 20px; } 
 
-nav ul li a {
-    color: white;
-    text-decoration: none;
-}
+   nav ul li a { color: white; text-decoration: none; } 
 
-nav ul li a:hover {
-    text-decoration: underline;
-}
+   nav ul li a:hover { text-decoration: underline;}

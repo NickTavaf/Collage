@@ -221,7 +221,7 @@ body {
     z-index: 3;
     width: 23vh;
     height: 23vh;
-    margin-top: -4.5vh;
+    margin-top: -4vh;
     margin-left: -19.3vh;
     background: transparent;
     z-index: 4;
@@ -386,34 +386,24 @@ body {
 
 
 
-  nav {
-    background-color: #bbb9b9;
-    overflow: hidden;
-    position: fixed;
-    top: 0; left: 0; right: 0;  /* stretch edge-to-edge */
-    top: 0; 
-    width: 100%; 
-    z-index: 1000;
-    height: 5vh;
-    font-size: 100px;
-}
-    nav ul {
+  nav { 
+    background-color: #333; overflow: hidden; 
+    position: fixed; 
+    top: 0;
+     left: 0; 
+     right: 0; /* stretch edge-to-edge */ 
+     top: 0;
+     width: 100%;
+      z-index: 1000; }
+
+   nav ul { 
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    margin-left: 63vh;
-}
+     margin: 0; padding: 0; 
+     display: flex; 
+     margin-left: 85vh; } 
 
-nav ul li {
-    padding:30px 250px;
-}
+   nav ul li { padding: 14px 20px; } 
 
-nav ul li a {
-    color: white;
-    text-decoration: none;
-}
-
-nav ul li a:hover {
-    text-decoration: underline;
-}
+   nav ul li a { color: white; text-decoration: none; } 
+   
+   nav ul li a:hover { text-decoration: underline;}
